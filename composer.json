@@ -1,0 +1,12 @@
+{
+    "name": "silviateona/dogdemy",
+    "description": "dog training gamified, using laravel and vuejs",
+    "type": "project",
+    "authors":[
+        {
+            "name":"Silvia Teona M.",
+            "email": "silviateona@gmail.com"
+        }
+    ],
+    "require": {}
+}

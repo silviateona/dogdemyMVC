@@ -1,0 +1,9 @@
+# pretty URLs removing index.php and the /?/ from the address bar query string
+# basically using Apache functions as when changing hosts file for virtual hosts
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.*)$ index.php?$1 [L,QSA]

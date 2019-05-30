@@ -1,2 +1,0 @@
-# dogdemy
-dog training gamified
