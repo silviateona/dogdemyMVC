@@ -1,4 +1,15 @@
-<?php 
+<!DOCTYPE html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	<?php 
 /*
 FRONT CONTROLLER
 PHP v. 7.1
@@ -41,3 +52,8 @@ if ($router->match($url)){
 	echo 'No route found for URL ',$url,'<br> Error 404 Page not found stand-in';
 	echo '<br>',preg_replace('/\//','\/','{controller}/{action}');
 }
+?>
+
+	</body>
+</html>
+
